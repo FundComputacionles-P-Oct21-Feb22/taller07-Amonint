@@ -1,0 +1,20 @@
+1. Inicio
+2. numerador, i[0, n] -- 1
+3. denominador, i[0, n] -- 1
+4. limite, i[0, n] -- 10
+5. suma, x(3) [{+}] -- +
+6. resta, x(3) [{-}] -- -
+7. cadena, x(200)[{1-9},{a-z},{A-Z}, {}, {+}, {-}] -- 
+8. operador x(3) [{+}, {-}]
+9. mientras
+10. denominador = limite 
+11. si (denominador == 1  denominador == 3  denominador == 5  denominador == 7
+	 denominador == 9) entonces
+12.      operador -- resta
+13. caso contrario
+        operador -- suma
+14. cadena -- cadena + operador + numerador +  + denominador
+15. denominador -- denominador + 1
+16. Fin mientras
+17. Escribir cadena
+18. Fin  
